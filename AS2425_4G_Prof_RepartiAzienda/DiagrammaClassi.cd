@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AS2425_4G_Prof_RepartiAzienda.Azienda">
+    <Position X="8.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAICAAAEAAAABEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Azienda.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Ceo" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="sedi" />
+      <Field Name="reparti" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AS2425_4G_Prof_RepartiAzienda.Reparto">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAAAAAAAAAAAAAAAAAAAAAAAAABAAAgAQAAAAAAAA=</HashCode>
+      <FileName>Reparto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="responsabile" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Personale" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AS2425_4G_Prof_RepartiAzienda.Sede">
+    <Position X="7" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAACAAAgAgAAAAABAAAA=</HashCode>
+      <FileName>Sede.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Responsabile" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AS2425_4G_Prof_RepartiAzienda.Persona">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAIAAAACAAAAAAAAQAEAAAAAAAQAAAAEA=</HashCode>
+      <FileName>Persona.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Sede" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
